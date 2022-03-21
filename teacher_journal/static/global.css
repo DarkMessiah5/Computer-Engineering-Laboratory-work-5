@@ -1,0 +1,75 @@
+.body {
+  background-image: url("./back.jpg");
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.Table {
+  margin-top: 20px;
+  margin-left: 20%;
+  border: 1px solid;
+  margin-bottom: 20px;
+  border-collapse: separate;
+  text-align: center;
+  border-spacing: 5px;
+  border-radius: 10px;
+  background-color: #005baa;
+}
+
+.TableChangeMark {
+  margin-top: 20px;
+  margin-left: 34%;
+  border: 1px solid;
+  margin-bottom: 20px;
+  border-collapse: separate;
+  text-align: center;
+  border-spacing: 5px;
+  border-radius: 10px;
+  background-color: #005baa;
+}
+
+.TableIndex {
+  margin-top: 20px;
+  margin-left: 11%;
+  border: 1px solid;
+  margin-bottom: 20px;
+  border-collapse: separate;
+  text-align: center;
+  border-spacing: 5px;
+  border-radius: 10px;
+  background-color: #005baa;
+}
+
+.TableHeader {
+  font-weight: bold;
+  text-align: left;
+  border: none;
+  padding: 10px 15px;
+  background-color: #ffffff10;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+  color: white;
+}
+
+.TableHeaderA {
+  font-weight: bold;
+  text-align: left;
+  border: none;
+  padding: 10px 15px;
+  background-color: #ffffff10;
+  font-size: 14px;
+  border-top: 1px solid #ddd;
+  color: white;
+}
+
+.TableHeader:hover {
+  background-color: white;
+  color: #005baa;
+  text-shadow: #b0c0f1 1px 0 12px;
+}
+
+.Button {
+  border-radius: 4px;
+  background-color: #005baa;
+  color: white;
+}
